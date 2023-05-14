@@ -52,5 +52,26 @@ public class DemoServiceImp implements DemoService {
 		return demoRepo.save(update);
 	
 	}
+	
+	@Override
+	public Demo replace(Demo demo, int id) {
+		Demo replace = demoRepo.findById(id).get();
+		replace.setName(demo.getName());
+		return demoRepo.save(replace);
+	}
+
+//	@Override
+//	public List<Demo> findByIdName(String name) {      //Query GetName
+//		
+//		return demoRepo.findByIdName(name);            //Query GetName
+//	}
+
+	@Override
+	public List<Demo> saveAll(List<Demo> demo) {       //PostSaveAll
+		
+		return demoRepo.saveAll(demo);                 //PostSaveAll
+	}
+
+	
 
 }

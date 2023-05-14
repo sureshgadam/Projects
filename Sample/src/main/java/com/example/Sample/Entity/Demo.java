@@ -13,12 +13,12 @@ public class Demo {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	
 	@Column(name="Number")
     private int number;
 	
 	@Column(name="Name")
 	private String name;
+	
 	
 	@Column(name="Location")
 	private String location;
