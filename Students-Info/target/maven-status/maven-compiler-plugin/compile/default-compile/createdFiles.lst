@@ -1,0 +1,11 @@
+College\Details\Students\Info\Controller\UniversityController.class
+College\Details\Students\Info\Repository\UniversityRepo.class
+College\Details\Students\Info\Service\UniversityService.class
+College\Details\Students\Info\Service\CollegeServiceImp.class
+College\Details\Students\Info\Entity\University.class
+College\Details\Students\Info\Service\UniversityServiceImp.class
+College\Details\Students\Info\StudentsInfoApplication.class
+College\Details\Students\Info\Controller\CollegeController.class
+College\Details\Students\Info\Repository\CollegeRepo.class
+College\Details\Students\Info\Service\CollegeService.class
+College\Details\Students\Info\Entity\College.class
